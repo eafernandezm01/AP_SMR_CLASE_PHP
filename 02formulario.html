@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducir datos</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <form action="02formulario.php" method="post">
+        <label for="nombre">Nombre del alumno/a</label>
+        <input type="text" name="nombre" id="nombre">
+
+        <br><br>
+        <label for="asignatura">Asignatura</label>
+        <select name="asignatura" id="asignatura">
+            <option value="apw">Aplicaciones Web</option>
+            <option value="mme">Montaje y mantenimiento de equipos</option>
+            <option value="eie">Empresas</option>
+        </select>
+
+        <br><br>
+        <label for="nota">Nota</label>
+        <input type="text" id="nota" name="nota">
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
