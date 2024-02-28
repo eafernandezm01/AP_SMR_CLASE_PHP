@@ -51,7 +51,7 @@
     }
   }else{
     echo "<p>Debes acceder desde el formulario.</p>";
-    echo "<a href=\"./02formulario.php\">Pincha aquí</a>";
+    echo "<a href=\"./02formulario.html\">Pincha aquí</a>";
   }
 
 
