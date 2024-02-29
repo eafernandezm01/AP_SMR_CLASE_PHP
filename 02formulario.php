@@ -12,7 +12,7 @@
 <?php
 
  //Con esto nos aseguramos que venimos del formulario
- if ($_SERVER['REQUEST_METHOD']=="POST"){
+ if ($_SERVER["REQUEST_METHOD"]=="POST"){
     // En php recuperamos por name, tenemos un input name="nombre"
     $nombre = $_POST["nombre"];
     // En php recuperamos por name, tenemos un input name="asignatura"
@@ -48,15 +48,16 @@
             echo "<p>Alumn@ se llama: $nombre</p>";
             echo "<p>En la asignatura de: $asignatura - $nomCompAsig tiene un $nota.</p>";
         }
-    }
-  }else{
-    echo "<p>Debes acceder desde el formulario.</p>";
-    echo "<a href=\"./02formulario.html\">Pincha aquí</a>";
-  }
+   }
+ }else{
+    echo "<p>Debes acceder a través del formulario.</p>";
+    echo "<a href=\"02formulario.html\">Pincha aquí</a>";
+
+ }
 
 
 
 ?>
-    
+
 </body>
 </html>
